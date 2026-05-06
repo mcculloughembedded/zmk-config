@@ -70,16 +70,16 @@
        &kp Q  &kp W  &kp F  &kp P         &kp B             &kp J      &kp L        &kp U      &kp Y    &kp APOSTROPHE
        &kp A  &kp R  &kp S  &kp T         &kp G             &kp M      &kp N        &kp E      &kp I    &kp O
 &none  &kp Z  &kp X  &kp C  &kp D         &kp V             &kp K      &kp H        &kp COMMA  &kp DOT  &kp SLASH       &none
-                     &none  &lt 1 ESCAPE  &kp LEFT_SHIFT    &kp SPACE  &lt 2 ENTER  &none
+                     &mo 3  &lt 1 ESCAPE  &kp LEFT_SHIFT    &kp SPACE  &lt 2 ENTER  &none
             >;
         };
 
         Ext {
-            label = "Nav";
+            label = "Ext";
             bindings = <
        &kp ESC       &kp K_BACK    &kp K_FIND  &kp K_FORWARD  &kp INSERT     &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp CAPS
        &sk LEFT_ALT  &sk LEFT_GUI  &sk LSHFT   &sk LCTRL      &sk RALT       &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE
-&none  &kp K_UNDO    &kp K_CUT     &kp K_COPY  &kp LEFT_GUI   &kp K_PASTE    &kp ENTER      &kp BACKSPACE   &kp NUMBER_2    &kp K_MENU       &kp PRINTSCREEN  &none
+&none  &kp K_UNDO    &kp K_CUT     &kp K_COPY  &kp LEFT_GUI   &kp K_PASTE    &kp ENTER      &kp BACKSPACE   &kp TAB         &kp K_MENU       &kp PRINTSCREEN  &none
                                    &none       &none          &none          &kp ENTER      &none           &none
             >;
         };
@@ -94,13 +94,13 @@
             >;
         };
 
-        Fun {
-            label = "Fun";
+        Num {
+            label = "Num";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp F1
-        &trans  &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp F20  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+       &none         &none         &none           &none          &kp KP_NUMLOCK    &kp EQUAL     &kp N7        &kp N8  &kp N9        &kp PLUS
+       &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT  &sk LCTRL      &sk RALT          &kp ASTERISK  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp MINUS
+&none  &none         &kp K_MENU    &kp TAB         &kp BACKSPACE  &kp ENTER         &kp NUMBER_0  &kp N1        &kp N2  &kp N3        &kp SLASH  &none
+                                   &none           &none          &none             &none         &none         &none
             >;
         };
     };
