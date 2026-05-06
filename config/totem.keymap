@@ -89,10 +89,10 @@
         Sym {
             label = "Sym";
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&trans  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
-                          &trans    &trans      &trans         &trans     &trans         &trans
+       &kp EXCL       &kp DOUBLE_QUOTES  &kp POUND       &kp DOLLAR  &kp PERCENT      &kp EQUAL      &kp AMPERSAND          &kp KP_ASTERISK  &kp SQT            &kp PLUS
+       &sk LEFT_ALT   &sk LEFT_GUI       &sk LEFT_SHIFT  &sk LCTRL   &kp CARET        &kp ASTERISK   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp MINUS
+&none  &kp BACKSLASH  &kp PIPE           &kp HASH        &kp TILDE   &kp AMPERSAND    &kp LS(GRAVE)  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDERSCORE  &none
+                                         &none           &none       &none            &none          &none                  &none
             >;
         };
 
